@@ -1,0 +1,54 @@
+:root {
+    --typeSpeed: 3s
+}
+
+.proj-header {
+    display: grid;
+    place-content: center;
+}
+
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+}
+
+h1::before,
+h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h1::before {
+    background: rgb(255, 255, 255);
+    animation:
+        typewriter var(--typeSpeed) steps(24) forwards;
+
+}
+
+h1::after {
+    width: .105em;
+    height: 1.05em;
+    background: black;
+    animation:
+    typewriter var(--typeSpeed) steps(24) forwards,
+    blinking 1000ms steps(24) infinite;
+    animation-delay: 0 3s;
+
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+@keyframes blinking {
+    to{
+        background: white;
+    }
+}

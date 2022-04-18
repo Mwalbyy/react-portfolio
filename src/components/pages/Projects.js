@@ -1,13 +1,14 @@
-import React from 'react'
-import CarouselSlide from './carousel/CarouselSlide';
+import React from "react";
+import CarouselSlide from "./carousel/CarouselSlide";
+import "./styles/project-page.css";
 
 export default function Projects() {
   return (
     <>
-    <h1>
-      HELLO
-    </h1>
-    <CarouselSlide/>
+      <div className="proj-header">
+        <h1>Here is some of my work.</h1>
+      </div>
+      <CarouselSlide />
     </>
-  )
+  );
 }
