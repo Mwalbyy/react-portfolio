@@ -1,5 +1,6 @@
+
 :root {
-    --typeSpeed: 3s
+    --typeSpeed: 2s
 }
 
 .proj-header {
@@ -7,15 +8,14 @@
     place-content: center;
 }
 
-
-h1 {
+.typeWriter {
     margin-top: 20px;
     font-family: 'Source Code Pro', monospace;
     position: relative;
 }
 
-h1::before,
-h1::after {
+.typeWriter::before,
+.typeWriter::after {
     content: '';
     position: absolute;
     top: 0;
@@ -24,21 +24,20 @@ h1::after {
     left: 0;
 }
 
-h1::before {
+.typeWriter::before {
     background: rgb(255, 255, 255);
     animation:
         typewriter var(--typeSpeed) steps(24) forwards;
-
 }
 
-h1::after {
+.typeWriter::after {
     width: .105em;
     height: 1.05em;
     background: black;
     animation:
     typewriter var(--typeSpeed) steps(24) forwards,
     blinking 1000ms steps(24) infinite;
-    animation-delay: 0 3s;
+    animation-delay: 0s ,2100ms;
 
 }
 

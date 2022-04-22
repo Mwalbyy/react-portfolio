@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <>
       <div className="proj-header">
-        <h1>Here is some of my work.</h1>
+        <h1 className="typeWriter">Here is some of my work.</h1>
       </div>
       <CarouselSlide />
     </>

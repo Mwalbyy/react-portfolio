@@ -1,0 +1,17 @@
+
+.navText{
+    font-size: 25px;
+}
+
+.glitch{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.glitch:hover {
+    text-shadow: 
+    2px 0 0 red,
+    -2px 0 0 green,
+    1px 2px 0 blue   
+    ;
+}

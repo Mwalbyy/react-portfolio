@@ -1,3 +1,6 @@
-img{
-    padding: 30px 10px;
+.slidesImg{
+    padding: 50px;
+    background-color: black;
+    margin:30px 0 30px 0;
+    aspect-ratio: 16 / 9;
 }

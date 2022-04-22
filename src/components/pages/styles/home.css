@@ -1,0 +1,67 @@
+:root {
+    --typeSpeed: 2s
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    background-image: url("../images/cloud.jpg");
+
+    height: 2000px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutSec {
+    margin-top: 300px;
+    position: absolute;
+    background-color: #2F4858;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.introText {
+    color: #CCF6FF;
+    background-color: #2F4858;
+    position: absolute;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.introduction {
+    padding: 30px;
+    font-size: 70px;
+}
+.proj-header {
+    display: grid;
+    place-content: center;
+}
+.toolImg{   
+    max-height: 120px;
+}
+@media only screen and (max-width: 600px) {
+    .toolImg {
+        max-height: 100px;
+    }
+  }
+.cssLogo{
+    margin-left: 50px;
+}
+.logoCont{
+    margin-top: 1400px;
+    position: absolute;
+}
+.tech{
+    margin-bottom: 20px;
+}
