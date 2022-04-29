@@ -5,7 +5,6 @@ import reactLogo from "./images/react.png";
 import cssLogo from "./images/CSS3.png";
 import Footer from "./Footer";
 
-
 export default function Home() {
   return (
     <>

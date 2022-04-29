@@ -48,10 +48,9 @@ export default function NavbarFunc({ currentPage, handlePageChange }) {
               Resume
             </Nav.Link>
             <Nav.Link
-              href="#contact"
-              onClick={() => handlePageChange("Contact")}
+              href="mailto:marcuswalby24@gmail.com"
               className={
-                currentPage === "Contact" ? "nav-link active navText" : "nav-link navText"
+                "nav-link navText"
               }
             >
               Contact
